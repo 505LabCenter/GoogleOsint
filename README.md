@@ -14,7 +14,7 @@ python3 GoogleOsint.py
 ```
 
 # Author
-@505Snoop (github.com/505Snoop)
+@505Snoop (https://github.com/505Snoop)
 # Under Development
-@505Lab (github/505LabCenter)
-@505Lab (t.me/Lab505
+@505Lab (https://github/505LabCenter)
+@505Lab (https://t.me/Lab505)
