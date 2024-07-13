@@ -1,0 +1,42 @@
+### CHANGELOG
+
+#### Version 2.0 - 2024-07-12
+
+##### Added
+- **Social Media Search**:
+  - Implemented `social_media_search` function to perform targeted searches for social media profiles (Facebook, Twitter, Instagram, LinkedIn).
+  - Added specific regex patterns for each social media platform to ensure accurate extraction of valid links.
+
+- **Wikipedia Summary**:
+  - Added `wikipedia_search` function to retrieve a brief summary from Wikipedia based on the query.
+  - Integrated Wikipedia search results into the final output display.
+
+- **Data Extraction**:
+  - Enhanced data extraction to include addresses, phones, emails, and full names using more robust regex patterns.
+
+##### Improved
+- **Google Search**:
+  - Enhanced the `google_search` function to use a user-specified or default User-Agent for better search results.
+  - Updated HTML parsing using `BeautifulSoup` to handle dynamic content more effectively.
+
+- **Display and Saving Results**:
+  - Updated `display_results` to format and color the output more clearly.
+  - Improved `save_to_file` function to include additional information like Wikipedia summary and social media links.
+
+- **Error Handling**:
+  - Added error handling in the `wikipedia_search` function to manage cases where the summary is not found or another error occurs.
+
+##### Fixed
+- **Irrelevant Links**:
+  - Fixed the issue of irrelevant links (e.g., Google Maps) being included in social media results by ensuring only valid links are returned.
+
+##### Removed
+- **Prompt for User Confirmation**:
+  - Removed the unnecessary prompt for user confirmation to make the process more streamlined.
+
+##### Miscellaneous
+- **Code Refactoring**:
+  - Refactored and cleaned up the code for better readability and maintainability.
+  - Modularized the code by breaking down large functions into smaller, more focused ones.
+
+This version aims to enhance the overall functionality, accuracy, and user experience of the OSINT dorking tool.
